@@ -1,0 +1,114 @@
+.logintable {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.leftsidebar {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-color: #9BC1BC;
+    overflow-x: hidden;
+}
+.leftsidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;  
+}
+.leftsidebar a:hover{
+    color: white;
+}
+.rightsidebar {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    background-color: #9BC1BC;
+    overflow-x: hidden;
+}
+.rightsidebar a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    display: block;
+    text-align: center;
+}
+.rightsidebar a:hover{
+    color: white;
+}
+.home {
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    padding-left: 120px;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.aboutus{
+    padding-left: 120px;
+    text-align: center;
+}
+.main {
+    padding-left: 120px;
+    text-align: center;
+}
+.submitbutton {
+    text-align: center;
+    padding: 10px;
+    padding-left: 120px;
+}
+.contactform {
+    display: flex;
+    justify-content: center;
+    padding-left: 120px;
+}
+.footermain {
+    position: relative;
+    bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    text-align: center;
+}
+.table {
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    border-collapse: collapse;
+    padding-left: 120px;
+}
+.table td {
+    border: 2px solid white;
+    background-color: #F4F1BB;
+}
+.column{ 
+    width:30%;
+    display:inline-block;
+    box-sizing:border-box;
+    text-align:center;
+    margin-left: 120px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.loginheader {
+    text-align: center;
+    padding-left:20px;
+}
